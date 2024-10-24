@@ -9,8 +9,8 @@
 - [Proposal Link](https://docs.google.com/document/d/1-6PjaPkUUU4C7cz40sIIgf5GowHlEYQwm2_fP0HiXMc/edit)
 - Web Technologies: HTML/CSS/JS
 - Webpage assignment
-  - Suri Wang: ?? specify which page you're working on and link it here.
-  - Leo Gong: ??
+  - Suri Wang: homepage. https://www.netflix.com/browse
+  - Leo Gong: tv show pop up browse. https://www.netflix.com/browse?jbv=80057281
 - Functionality
   - Image Carousel when previewing a movie
   - Hover/pop up (explain where this is on the page)
