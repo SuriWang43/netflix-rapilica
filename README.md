@@ -11,6 +11,7 @@
 - Webpage assignment
   - Suri Wang: homepage. https://www.netflix.com/browse
   - Leo Gong: tv show pop up browse. https://www.netflix.com/browse?jbv=80057281
+  - Leo page plan: [Proposal Link](https://docs.google.com/document/d/1agOXo1pgsjS9SvJBrHRcMNn985mWGLvxv8szpF380Vg/edit?usp=sharing)
 - Functionality
   - Image Carousel when previewing a movie
   - Hover/pop up (explain where this is on the page)
