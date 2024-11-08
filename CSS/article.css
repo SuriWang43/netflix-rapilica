@@ -1,0 +1,21 @@
+.small-poster {
+    width: 220px;    /* Set the width */
+    padding-right: 2px; 
+    justify-content: center;   
+  }
+  
+.ranking-poster {
+    width: 115px;    /* Set the width */
+  }
+
+nav ul li a {
+    color: #e5e5e5;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer nav ul li a {
+    color: grey;
+    text-decoration: none;
+    list-style-type: none;               /* Removes the default list bullets */
+}
