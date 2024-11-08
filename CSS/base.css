@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 h2 a {
     font-size: 24px; /* Adjust the size referencing the original website */
     color: #e5e5e5; /* Sets the color */
     text-decoration: none;
     margin-left: 45px;  
 }
+=======
+ .logo {
+    height: 7rem;
+    width: 7rem;
+  }
+>>>>>>> main
