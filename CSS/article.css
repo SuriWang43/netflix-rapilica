@@ -1,12 +1,18 @@
 .small-poster {
-    width: 220px;    /* Set the width */
+    width: 217px;    /* Set the width */
+    height: 124px;
     padding-right: 2px; 
     justify-content: center;   
-  }
-  
+}
+
 .ranking-poster {
-    width: 115px;    /* Set the width */
-  }
+    width: 117px;    /* Set the width */
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+}
 
 nav ul li a {
     color: #e5e5e5;
@@ -17,5 +23,23 @@ nav ul li a {
 footer nav ul li a {
     color: grey;
     text-decoration: none;
-    list-style-type: none;               /* Removes the default list bullets */
+    display: flex;
+    justify-content: space-between;
 }
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+div {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+button:hover {
+    background-color: white;
+
+}
+
+/* git merge main, on hover */
