@@ -9,10 +9,8 @@
   </head>
   <body>
     <header>
-      <figure>
-        <img class="logo" src="./images/NetflixLogo.png" alt="logo"/>
-      </figure>
       <nav>
+        <img class="logo" src="./images/NetflixLogo.png" alt="logo"/>
         <ul class="header-left">
           <li><a href="./index.html">Home </a></li>
           <li><a href="./index.html">TV Shows </a></li>
@@ -27,10 +25,8 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 24 24" width="24" height="24" data-icon="MagnifyingGlassStandard" aria-hidden="true" class="search-icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10ZM15.6177 17.0319C14.078 18.2635 12.125 19 10 19C5.02944 19 1 14.9706 1 10C1 5.02944 5.02944 1 10 1C14.9706 1 19 5.02944 19 10C19 12.125 18.2635 14.078 17.0319 15.6177L22.7071 21.2929L21.2929 22.7071L15.6177 17.0319Z" fill="currentColor"></path></svg>
           </button>
         </div>
-        <ul>
-          <li><a href="./index.html">Kids</a></li>
-        </ul>
-        <div class=notification-container">
+        <a class="kids" href="./index.html">Kids</a>
+        <div class="notification-container">
           <button class="notification-btn">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 24 24" width="24" height="24" data-icon="BellStandard" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M13.0002 4.07092C16.3924 4.55624 19 7.4736 19 11V15.2538C20.0489 15.3307 21.0851 15.4245 22.1072 15.5347L21.8928 17.5232C18.7222 17.1813 15.4092 17 12 17C8.59081 17 5.27788 17.1813 2.10723 17.5232L1.89282 15.5347C2.91498 15.4245 3.95119 15.3307 5.00003 15.2538V11C5.00003 7.47345 7.60784 4.55599 11.0002 4.07086V2H13.0002V4.07092ZM17 15.1287V11C17 8.23858 14.7614 6 12 6C9.2386 6 7.00003 8.23858 7.00003 11V15.1287C8.64066 15.0437 10.3091 15 12 15C13.691 15 15.3594 15.0437 17 15.1287ZM8.62593 19.3712C8.66235 20.5173 10.1512 22 11.9996 22C13.848 22 15.3368 20.5173 15.3732 19.3712C15.3803 19.1489 15.1758 19 14.9533 19H9.0458C8.82333 19 8.61886 19.1489 8.62593 19.3712Z" fill="currentColor"></path></svg>
             <!-- <span class="badge">3</span> -->
@@ -55,7 +51,7 @@
         </div>
       </section>
       <h2><a href="./index.html">We think You'll Love These </a></h2>
-      <div>
+      <div class="videos">
         <img class="small-poster" src="./images/Movies and TVs/BreakingBadSmall.webp" alt="Breaking Bad"/>
         <img class="small-poster" src="./images/Movies and TVs/StrangerThingsSmall.jpg" alt="Stranger Things" />
         <img class="small-poster" src="./images/Movies and TVs/BetterCalledSaul.webp" alt="Better Called Saul" />
@@ -64,7 +60,7 @@
         <img class="small-poster" src="./images/Movies and TVs/BlackMirrorSmall.jpg" alt="Black Mirror" />
       </div>
       <h2><a href="./index.html">Games </a></h2>
-      <div>
+      <div class="videos">
         <img class="games-poster" src="./images/Games/Game1.webp" alt="The Almost Gone"/>
         <img class="games-poster" src="./images/Games/Game2.webp" alt="Reigns"/>
         <img class="games-poster" src="./images/Games/Game3.webp" alt="Story Warriors"/>
@@ -73,7 +69,7 @@
         <img class="games-poster" src="./images/Games/Game6.webp" alt="Rocket"/>
       </div>
       <h2><a href="./index.html">My List </a></h2>
-      <div>
+      <div class="videos">
         <img class="small-poster" src="./images/Movies and TVs/TheCrownSmall.jpg" alt="The Crown" />
         <img class="small-poster" src="./images/Movies and TVs/MoneyHeistSmall.jpg" alt="Money Heist" />
         <img class="small-poster" src="./images/Movies and TVs/ShamelessSmall.webp" alt="Shameless" />
@@ -82,7 +78,7 @@
         <img class="small-poster" src="./images/Movies and TVs/NarcosSmall.jpg" alt="Narcos" />
       </div>
       <h2><a href="./index.html">30-Minute Laughs </a></h2>
-      <div>
+      <div class="videos">
         <img class="small-poster" src="./images/Movies and TVs/HowIMetSmall.webp" alt="How I Met Your Mother" />
         <img class="small-poster" src="./images/Movies and TVs/NobodyWantsThisSmall.jpg" alt="Nobody Wants This" />
         <img class="small-poster" src="./images/Movies and TVs/BrooklynNine-Nine.webp" alt="Brooklyn Nine-Nine" />
@@ -91,7 +87,7 @@
         <img class="small-poster" src="./images/Movies and TVs/BojackHorseman.jpg" alt="BoJack Horseman" />
       </div>
       <h2><a href="./index.html">Top 10 TV Shows in the U.S. Today </a></h2>
-      <div>
+      <div class="videos">
         <svg width="6.5%" height="6.5%" viewBox="-15 0 80 154" class="svg-icon"><path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M35.377 152H72V2.538L2 19.362v30.341l33.377-8.459V152z"></path></svg>
         <img class="ranking-poster" src="./images/Rankings/TheDiplomatSmall.jpg" alt="The Diplomat" />
         <svg id="rank-2" width="6.5%" height="6.5%" viewBox="0 0 80 154" class="svg-icon svg-icon-rank-2 top-10-rank"><path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M3.72 152H113v-30.174H50.484l4.355-3.55 29.453-24.012c5.088-4.124 9.748-8.459 13.983-13.004 4.16-4.464 7.481-9.339 9.972-14.629 2.449-5.203 3.678-11.113 3.678-17.749 0-9.428-2.294-17.627-6.875-24.645-4.597-7.042-10.941-12.494-19.07-16.376C77.803 3.957 68.496 2 58.036 2 47.591 2 38.37 4.023 30.347 8.06c-8.015 4.032-14.457 9.578-19.352 16.654-4.492 6.493-7.389 13.803-8.693 21.952h34.055c1.236-3.52 3.398-6.52 6.459-8.97 3.54-2.834 8.277-4.224 14.147-4.224 5.93 0 10.552 1.537 13.76 4.681 3.181 3.12 4.791 7.024 4.791 11.594 0 4.151-1.16 7.934-3.468 11.298-2.192 3.194-5.987 7.124-11.405 11.84L3.72 122.465V152z"></path></svg>
@@ -106,7 +102,7 @@
         <img class="ranking-poster" src="./images/Rankings/GossipGirlsSmall.webp" alt="Gossip Girl" />
       </div>
       <h2><a href="./index.html">Bingeworthy TV Shows </a></h2>
-      <div>
+      <div class="videos">
         <img class="small-poster" src="./images/Movies and TVs/LostSmall.webp" alt="Lost" />
         <img class="small-poster" src="./images/Movies and TVs/Arcane.jpg" alt="Arcane" />
         <img class="small-poster" src="./images/Movies and TVs/CountdownPaulVsTyson.jpg" alt="Countdown Paul vs. Tyson" />
@@ -115,7 +111,7 @@
         <img class="small-poster" src="./images/Movies and TVs/SixFeetUnder.webp" alt="Six Feet Under" />
       </div>
       <h2><a href="./index.html">Award-Winning TV Shows </a></h2>
-      <div>
+      <div class="videos">
         <img class="small-poster" src="./images/Movies and TVs/HeartStopper.jpg" alt="Heart Stopper" />
         <img class="small-poster" src="./images/Movies and TVs/Blacklist.webp" alt="Blacklist" />
         <img class="small-poster" src="./images/Movies and TVs/CallTheMidwife.webp" alt="Call The Midwife" />
@@ -124,7 +120,7 @@
         <img class="small-poster" src="./images/Movies and TVs/Anne.jpg" alt="Anne with an E" />
       </div>
       <h2><a href="./index.html">New on Netflix </a></h2>
-      <div>
+      <div class="videos">
         <img class="small-poster" src="./images/Movies and TVs/GossipGirlsSmall.webp" alt="Gossip Girls" />
         <img class="small-poster" src="./images/Movies and TVs/TheDiplomatSmall.jpg" alt="The Diplomat" />
         <img class="small-poster" src="./images/Movies and TVs/MarthaSmall.jpg" alt="Martha" />
@@ -133,7 +129,7 @@
         <img class="small-poster" src="./images/Movies and TVs/LoveisBlindSmall.jpg" alt="Love is Blind" />
       </div>
       <h2><a href="./index.html">Top 10 Movies in the U.S. Today </a></h2>
-      <div>
+      <div class="videos">
         <svg width="6.5%" height="6.5%" viewBox="-15 0 80 154" class="svg-icon"><path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M35.377 152H72V2.538L2 19.362v30.341l33.377-8.459V152z"></path></svg>
         <img class="ranking-poster" src="./images/Rankings/MeetMeNextChrismas.jpg" alt="Meet Me Next Chrismas" />
         <svg width="6.5%" height="6.5%" viewBox="0 0 80 154" class="svg-icon"><path stroke="#595959" stroke-linejoin="square" stroke-width="4" d="M3.72 152H113v-30.174H50.484l4.355-3.55 29.453-24.012c5.088-4.124 9.748-8.459 13.983-13.004 4.16-4.464 7.481-9.339 9.972-14.629 2.449-5.203 3.678-11.113 3.678-17.749 0-9.428-2.294-17.627-6.875-24.645-4.597-7.042-10.941-12.494-19.07-16.376C77.803 3.957 68.496 2 58.036 2 47.591 2 38.37 4.023 30.347 8.06c-8.015 4.032-14.457 9.578-19.352 16.654-4.492 6.493-7.389 13.803-8.693 21.952h34.055c1.236-3.52 3.398-6.52 6.459-8.97 3.54-2.834 8.277-4.224 14.147-4.224 5.93 0 10.552 1.537 13.76 4.681 3.181 3.12 4.791 7.024 4.791 11.594 0 4.151-1.16 7.934-3.468 11.298-2.192 3.194-5.987 7.124-11.405 11.84L3.72 122.465V152z"></path></svg>
