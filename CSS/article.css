@@ -1,0 +1,236 @@
+h2 a {
+    font-size: 24px; /* Adjust the size referencing the original website */
+    color: #e5e5e5; /* Sets the color */
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    margin-left: 45px;  
+}
+
+.logo {
+    width: 6.5rem;
+    margin: 0px;
+    max-width: 100%;
+    margin-left: 45px;
+}
+
+.profile {
+    width: 35px;
+}
+
+.small-poster {
+    width: 217px;    /* Set the width */
+    height: 124px;
+    padding-right: 2px; 
+    margin-bottom: 30px;
+    justify-content: center;   
+}
+
+.ranking-poster {
+    width: 117px;    /* Set the width */
+    margin-bottom: 30px;
+}
+
+.games-poster {
+    width: 217px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #e5e5e5;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    padding-inline: 15px;
+} 
+
+.kids {
+    color: white;
+    text-decoration: none;
+}
+
+.svg-icon {
+    margin-left: 20px;
+}
+
+.header-left {
+    display: flex;  
+    align-items: center;  
+    justify-content: flex-start;
+    padding: 0px;    
+    margin: 0px;   
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;    /* Align child (ul) at the end (right) */
+    align-items: center;  
+    margin: 0px;   
+}
+
+.header-left .header-right .logo {
+    display: flex;                    /* Enable Flexbox on the header */
+    justify-content: space-between;    /* Distribute space between the left and right sections */
+    align-items: center;              /* Vertically align all items */
+}
+
+header {
+    position: fixed;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7) 10%, transparent);
+    width: 100%;                       /* Full width of the parent container */
+    margin: 0px;              /* Optional: Add some padding on the sides */
+}
+
+.header-right .search-container .header-right .notification-container {
+  margin-left: 20px; /* Adjust space between search and notification */
+  padding-inline: 10px;
+}
+
+header nav {
+    display: flex;                    /* Enable Flexbox on the header */
+    justify-content: space-between;    /* Distribute space between the left and right sections */
+    align-items: center;              /* Vertically align all items */
+}
+
+header.scrolled {
+    background: black;  /* Solid black background when scrolled */
+}
+
+h1 img {
+    width: 500px;
+}
+
+
+.search-btn {
+    background-color: transparent;    /* Make the background transparent */
+    border: none;                     /* Remove border */
+}
+
+.search-btn svg {
+    color: white;                      /* Make the SVG white */
+}
+
+.search-btn:hover {
+    background-color: transparent;    /* Keep the background transparent */
+    border: none;                     /* Ensure no border on hover */
+}
+
+.notification-btn {
+    background-color: transparent;    /* Make the background transparent */
+    border: none;                     /* Remove border */
+}
+
+.notification-btn svg {
+    color: white;                      /* Make the SVG white */
+    font-family: Arial, sans-serif;
+}
+
+.notification-btn:hover {
+    background-color: transparent;    /* Keep the background transparent */
+    border: none;                     /* Ensure no border on hover */
+}
+
+.profile {
+    width: 35px;                      /* Set the profile image width */
+    height: 35px;                     /* Set the profile image height */
+    border-radius: 15%;               /* Make the image circular */
+    margin: 0;
+}
+
+.poster {
+    position: relative; 
+    width: 100vw;                    /* Full width of the viewport */
+    height: 100vh;                   /* Full height of the viewport */
+    object-fit: cover;               /* Make the image cover the entire area without distortion */
+    z-index: -1;                     /* Ensure the poster stays behind other content */
+    background-image: linear-gradient(180deg, hsla(0, 0%, 8%, 0) 0, hsla(0, 0%, 8%, .15) 15%, hsla(0, 0%, 8%, .35) 29%, hsla(0, 0%, 8%, .58) 44%, #141414 68%, #141414);
+}
+
+.featuredetails {
+    position: absolute;
+    top: 0; /* Position it at the top */
+    left: 0;                         /* Position it at the left */
+    text-align: center;
+    z-index: 1;  /* Make sure it stays above the poster */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 400px;  /*Adjust vertical margin*/
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.play-btn, .info-btn {
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    height: 50px;
+    border: none;
+}
+
+.play-btn {
+    background-color: white;
+    font-family: ;
+    color: black;
+    width: 125px;
+}
+
+.info-btn {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+    font-family: Arial, sans-serif;
+    width: 165px;
+}
+
+.play-btn:hover, .info-btn:hover {
+    opacity: 0.7;
+}
+
+div .button {
+    padding-inline: 100px;
+}
+
+
+footer nav ul li a {
+    color: grey;
+    font-family: ;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.other-logos {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+footer {
+    margin-right: 190px;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+
+.videos {
+    padding-left: 45px;
+    padding-right: 45px;
+    display: flex;           /* Enables Flexbox layout */
+    justify-content: flex-start; /* Aligns children horizontally (default is left) */
+}
+
+button:hover {
+    background-color: white;
+
+}
+
+/* git merge main, on hover */
